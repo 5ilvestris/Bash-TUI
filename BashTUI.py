@@ -50,6 +50,6 @@ def run_tui_checklist():
         # Remove old file
         if os.path.exists(output_filepath):
             os.remove(output_filepath)
-    exceot:
+    except:
         print("An error just happened or operation cancelled by user.")
 run_tui_checklist()
