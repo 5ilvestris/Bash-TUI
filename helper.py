@@ -2,7 +2,6 @@ import subprocess
 import os
 from typing import List, Tuple, Dict
 
-# Varsayılan başlangıç durumu (tümü 'off' olarak ayarlanabilir)
 DEFAULT_STATUS = "off"
 OUTPUT_FILEPATH = "/tmp/checklist_choices.txt"
 
